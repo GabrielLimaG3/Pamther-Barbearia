@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\source\\repos\\Pamther Barbearia\\Barbearia\\Barbearia.csproj": {}
+    "C:\\Users\\Gabriel\\GitHub\\Pamther-Barbearia\\Barbearia\\Barbearia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\source\\repos\\Pamther Barbearia\\Barbearia\\Barbearia.csproj": {
+    "C:\\Users\\Gabriel\\GitHub\\Pamther-Barbearia\\Barbearia\\Barbearia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\source\\repos\\Pamther Barbearia\\Barbearia\\Barbearia.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\GitHub\\Pamther-Barbearia\\Barbearia\\Barbearia.csproj",
         "projectName": "Barbearia",
-        "projectPath": "C:\\Users\\Gabriel\\source\\repos\\Pamther Barbearia\\Barbearia\\Barbearia.csproj",
+        "projectPath": "C:\\Users\\Gabriel\\GitHub\\Pamther-Barbearia\\Barbearia\\Barbearia.csproj",
         "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\source\\repos\\Pamther Barbearia\\Barbearia\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel\\GitHub\\Pamther-Barbearia\\Barbearia\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

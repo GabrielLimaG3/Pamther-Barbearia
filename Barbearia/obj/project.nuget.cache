@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cjDeHxNrp2A6Lo+LTIyafQ5gtCrAS/V5Z2Ut5PCBPwTMcoo0QNoUfdTSGdC3/jPQsKVo/BVGjzTbRpgJCbmRRg==",
+  "dgSpecHash": "b4eIltxjuU6Hpa2FAN+imUVsKYpk+vCcQ6pk9+GCUcnbbgkgWQu+3c0SOL5dJ55CxFqUj4Tz5RIetL5FhFH/Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel\\source\\repos\\Pamther Barbearia\\Barbearia\\Barbearia.csproj",
+  "projectFilePath": "C:\\Users\\Gabriel\\GitHub\\Pamther-Barbearia\\Barbearia\\Barbearia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
