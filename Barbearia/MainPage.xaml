@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Barbearia.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#2D2B36">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <VerticalStackLayout Padding="0, 40 ,-30 , 10">
+                <Image
+                Source="dotnet_bot.png"
+                HeightRequest="295"
+                Aspect="AspectFit"
+                HorizontalOptions="End"/>
+            </VerticalStackLayout>
+            <Frame HeightRequest="75" BackgroundColor="#404559" BorderColor="#404559">
+                <Entry FontSize="14" TextColor="White" Placeholder="E-mail" Keyboard="Email" PlaceholderColor="#7D83A5" BackgroundColor="#404559"/>
+            </Frame>
+            <Frame HeightRequest="75" BackgroundColor="#404559" BorderColor="#404559">
+                <Entry FontSize="14"  TextColor="White" AnchorX="10" IsPassword="True" Placeholder="Senha" PlaceholderColor="#7D83A5"  BackgroundColor="#404559"/>
+            </Frame>
+
+            <Button BackgroundColor="#8257E6" WidthRequest="200" Text="Login"/>
+
+            <Label Text="Recuperar Senha" TextColor="White" HorizontalOptions="Center"/>
+            <Label Text="Quero Criar Uma Conta" TextColor="White" HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
