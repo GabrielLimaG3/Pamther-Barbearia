@@ -1,16 +1,12 @@
 # Pamther-Barbearia
 
 
-<div>
-<h2>Projeto</h2>
-
 <p>Pamther-Barbearia é um emocionante projeto de barbearia que integra o charme do serviço tradicional com a eficiência da tecnologia moderna. Concebida e desenvolvida por um profissional apaixonado pelo seu ofício, esta barbearia oferecerá uma experiência única aos clientes, permitindo-lhes agendar seus cortes de cabelo e barbas de forma conveniente e personalizada.</p>
 
 <h4>Status Atual do Projeto:</h4>
 
 <p>Pamther-Barbearia é um projeto solo atualmente em fase de produção.</p>
 
-</div>
 <br/>
 
 
