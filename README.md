@@ -1,5 +1,7 @@
 # Pamther-Barbearia
 
+## 
+
 
 
 - ### Demontração no Windows 11 🖥️
@@ -9,7 +11,8 @@
 
 ## Plataformas 💻
 - [x]  Windows 
-- [x]  Android 
+- [x]  Android
+- [ ]  IOS
 
 ## Recursos 🚀
 
@@ -18,6 +21,12 @@
 - [ ]  Agendamentos
 - [ ]  Escolha de Serviços
 - [ ]  Validação de Campos
+
+## Tecnologias Usadas Até o Momento ⚙️
+
+- .NET Core
+- Maui
+- C#
 
 
 
