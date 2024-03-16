@@ -8,8 +8,8 @@
     Title="Barbearia">
 
     <ShellContent
+        Title="Home"
         ContentTemplate="{DataTemplate local:LoginPage}"
-        Route="LoginPage" 
-        Title="Heelo"/>
+        Route="LoginPage"/>
 
 </Shell>
