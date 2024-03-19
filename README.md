@@ -14,6 +14,8 @@
 <video src="https://github.com/GabrielLimaG3/Pamther-Barbearia/assets/126430100/540891b4-9036-4f48-b894-31cbeda75584"></video>
 <br/>
 - ### Demontração no Android 📱
+<video src="https://github.com/GabrielLimaG3/Pamther-Barbearia/assets/126430100/9cb1ac5f-d2e4-4599-b2ab-4213f8da60d3"></video>
+
 
 <br/>
 
