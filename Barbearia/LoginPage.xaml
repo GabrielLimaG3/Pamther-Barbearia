@@ -2,9 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Barbearia.LoginPage"
+             xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons"
              NavigationPage.HasNavigationBar="False"  
              BackgroundColor="#2D2B36">
-
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -23,9 +23,10 @@
                 <Entry x:Name="Entry_Senha" FontSize="14"  TextColor="White" AnchorX="10" IsPassword="True" Placeholder="Senha" PlaceholderColor="#7D83A5"  BackgroundColor="#404559"/>
             </Frame>
 
-            <Button x:Name="btn_login" Clicked="Button_Clicked" BackgroundColor="#8257E6" WidthRequest="200" Text="Login">
-
-            </Button>
+          
+             <buttons:SfButton CornerRadius="10" x:Name="btn_login" Clicked="Button_Clicked" BackgroundColor="#8257E6" WidthRequest="200" Text="Login"/>
+    
+           
 
             <Button Clicked="Button_Clicked_1" BackgroundColor="Transparent" Text="Recuperar Senha" TextColor="White" HorizontalOptions="Center"/>
             <Button Clicked="Button_Clicked_2" BackgroundColor="Transparent" CharacterSpacing="1.2" Text="Quero Criar Uma Conta" TextColor="White" HorizontalOptions="Center"/>

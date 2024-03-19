@@ -3,11 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Barbearia.Pages.MainPage"
              NavigationPage.HasNavigationBar="False"
-             Title="MainPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="MainPage"
+             BackgroundColor="#2D2B36">
+    
+            <ScrollView>
+                <VerticalStackLayout>
+                    <Image Source="subtract.png" HeightRequest="35" Margin="15" HorizontalOptions="End"/>
+                    <Label FontFamily="1" Margin="20, 10, 0, 0"  Text="Seja" FontSize="35" TextColor="#8257E6"/>
+                    <Label FontFamily="1" Margin="20, -7, 0, 50" Text="Bem-Vindo!" TextColor="White" FontSize="35"/>
+
+
+                <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                    <Button x:Name="btn" Clicked="Button_Clicked" FontSize="20" FontFamily="1" Background="#8257E6" Text="Serviços" WidthRequest="120"/>
+                    <Button x:Name="btn1" Clicked="Button_Clicked_1" WidthRequest="120" FontSize="20" Background="#37343F" Text="Quimica" FontFamily="1"/>
+                    <Button x:Name="btn2" Clicked="Button_Clicked_2" WidthRequest="120" FontSize="20" Background="#37343F" Text="Promo" FontFamily="1"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+
+    
 </ContentPage>

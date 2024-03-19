@@ -1,7 +1,7 @@
 ﻿using DemoApp.Handlers;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Controls.PlatformConfiguration;
-
+using Syncfusion.Maui.Core.Hosting;
 
 namespace Barbearia
 {
@@ -9,17 +9,25 @@ namespace Barbearia
     public static class MauiProgram
     {
 
+
         public static MauiApp CreateMauiApp()
         {
             FormHandler.RemoveBorders();
+            
             var builder = MauiApp.CreateBuilder();
+
             builder
                 .UseMauiApp<App>()
+                .ConfigureSyncfusionCore()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+                
+
+
+
 
 
 #if DEBUG
