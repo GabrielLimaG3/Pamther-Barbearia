@@ -14,10 +14,12 @@
 
 
                 <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
-                    <Button x:Name="btn" Clicked="Button_Clicked" FontSize="20" FontFamily="1" Background="#8257E6" Text="Serviços" WidthRequest="120"/>
+                <Button x:Name="btn" Clicked="Button_Clicked" FontSize="20" FontFamily="1" Background="#8257E6" Text="Serviços" WidthRequest="120"/>
                     <Button x:Name="btn1" Clicked="Button_Clicked_1" WidthRequest="120" FontSize="20" Background="#37343F" Text="Quimica" FontFamily="1"/>
-                    <Button x:Name="btn2" Clicked="Button_Clicked_2" WidthRequest="120" FontSize="20" Background="#37343F" Text="Promo" FontFamily="1"/>
-                </HorizontalStackLayout>
+                <Button x:Name="btn2" Clicked="Button_Clicked_2" WidthRequest="120" FontSize="20" Background="#37343F" Text="Promo" FontFamily="1"/>
+            </HorizontalStackLayout>
+
+            <Label FontSize="55" TextColor="White">Page 1</Label>
             </VerticalStackLayout>
         </ScrollView>
 

@@ -1,4 +1,6 @@
-﻿namespace Barbearia
+﻿using Barbearia.Pages;
+
+namespace Barbearia
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }

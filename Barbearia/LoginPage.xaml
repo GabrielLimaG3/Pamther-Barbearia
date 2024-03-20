@@ -17,18 +17,19 @@
                 HorizontalOptions="End"/>
             </StackLayout>
             <Frame HeightRequest="75" BackgroundColor="#404559" BorderColor="#404559">
-                <Entry x:Name="Entry_Email_User" FontSize="14" TextColor="White" Placeholder="E-mail" Keyboard="Email" PlaceholderColor="#7D83A5" BackgroundColor="#404559"/>
+                <Entry ReturnType="Default" x:Name="Entry_Email_User" FontSize="14" TextColor="White" Placeholder="E-mail" Keyboard="Email" PlaceholderColor="#7D83A5" BackgroundColor="#404559"/>
             </Frame>
             <Frame HeightRequest="75" BackgroundColor="#404559" BorderColor="#404559">
-                <Entry x:Name="Entry_Senha" FontSize="14"  TextColor="White" AnchorX="10" IsPassword="True" Placeholder="Senha" PlaceholderColor="#7D83A5"  BackgroundColor="#404559"/>
+                <Entry ReturnType="Default" x:Name="Entry_Senha" FontSize="14"  TextColor="White" AnchorX="10" IsPassword="True" Placeholder="Senha" PlaceholderColor="#7D83A5"  BackgroundColor="#404559"/>
             </Frame>
 
-          
-             <buttons:SfButton CornerRadius="10" x:Name="btn_login" Clicked="Button_Clicked" BackgroundColor="#8257E6" WidthRequest="200" Text="Login"/>
-    
-           
 
-            <Button Clicked="Button_Clicked_1" BackgroundColor="Transparent" Text="Recuperar Senha" TextColor="White" HorizontalOptions="Center"/>
+            <buttons:SfButton CornerRadius="10" x:Name="btn_login" Clicked="Button_Clicked" BackgroundColor="#8257E6" WidthRequest="200" Text="Login">
+                
+            </buttons:SfButton>
+
+
+                    <Button Clicked="Button_Clicked_1" BackgroundColor="Transparent" Text="Recuperar Senha" TextColor="White" HorizontalOptions="Center"/>
             <Button Clicked="Button_Clicked_2" BackgroundColor="Transparent" CharacterSpacing="1.2" Text="Quero Criar Uma Conta" TextColor="White" HorizontalOptions="Center"/>
             
             

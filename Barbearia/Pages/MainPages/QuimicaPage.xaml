@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Barbearia.Pages.MainPages.QuimicaPage"
+             Title="QuimicaPage"
+             BackgroundColor="#2D2B36"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label FontFamily="1" Margin="20, 10, 0, 0"  Text="Seja" FontSize="35" TextColor="#8257E6"/>
+            <Label FontFamily="1" Margin="20, -7, 0, 50" Text="Bem-Vindo!" TextColor="White" FontSize="35"/>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button x:Name="btn" Clicked="Button_Clicked" FontSize="20" FontFamily="1" Background="#37343F" Text="Serviços" WidthRequest="120"/>
+                <Button x:Name="btn1" Clicked="Button_Clicked_1" WidthRequest="120" FontSize="20"  Background="#8257E6" Text="Quimica" FontFamily="1"/>
+                <Button x:Name="btn2" Clicked="Button_Clicked_2" WidthRequest="120" FontSize="20" Background="#37343F" Text="Promo" FontFamily="1"/>
+            </HorizontalStackLayout>
+
+            <Label FontSize="55" TextColor="White">Page 2</Label>
+        </VerticalStackLayout>
+        </ScrollView>
+</ContentPage>

@@ -1,12 +1,8 @@
-using Barbearia.Pages.MainPages;
-using System.Drawing;
-using Color = Microsoft.Maui.Graphics.Color;
+namespace Barbearia.Pages.MainPages;
 
-namespace Barbearia.Pages;
-
-public partial class MainPage : ContentPage
+public partial class QuimicaPage : ContentPage
 {
-	public MainPage()
+	public QuimicaPage()
 	{
 		InitializeComponent();
 	}
@@ -17,7 +13,8 @@ public partial class MainPage : ContentPage
         btn1.Background = Color.FromArgb("#37343F");
         btn2.Background = Color.FromArgb("#37343F");
 
-        
+        Navigation.PushAsync(new MainPage());
+
     }
 
     private void Button_Clicked_1(object sender, EventArgs e)
@@ -25,8 +22,6 @@ public partial class MainPage : ContentPage
         btn.Background = Color.FromArgb("#37343F");
         btn1.Background = Color.FromArgb("#8257E6");
         btn2.Background = Color.FromArgb("#37343F");
-
-        Navigation.PushAsync(new QuimicaPage());
     }
 
     private void Button_Clicked_2(object sender, EventArgs e)
