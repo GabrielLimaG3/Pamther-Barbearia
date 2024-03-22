@@ -7,6 +7,7 @@
              NavigationPage.HasNavigationBar="False">
     <ScrollView>
         <VerticalStackLayout>
+            <Image Source="subtract.png" HeightRequest="35" Margin="15" HorizontalOptions="End"/>
             <Label FontFamily="1" Margin="20, 10, 0, 0"  Text="Seja" FontSize="35" TextColor="#8257E6"/>
             <Label FontFamily="1" Margin="20, -7, 0, 50" Text="Bem-Vindo!" TextColor="White" FontSize="35"/>
 
@@ -16,7 +17,6 @@
                 <Button x:Name="btn2" Clicked="Button_Clicked_2" WidthRequest="120" FontSize="20" Background="#37343F" Text="Promo" FontFamily="1"/>
             </HorizontalStackLayout>
 
-            <Label FontSize="55" TextColor="White">Page 2</Label>
         </VerticalStackLayout>
         </ScrollView>
 </ContentPage>

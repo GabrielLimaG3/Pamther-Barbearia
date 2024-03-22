@@ -8,6 +8,7 @@
 
     <ScrollView>
         <VerticalStackLayout>
+            <Image Source="subtract.png" HeightRequest="35" Margin="15" HorizontalOptions="End"/>
             <Label FontFamily="1" Margin="20, 10, 0, 0"  Text="Seja" FontSize="35" TextColor="#8257E6"/>
             <Label FontFamily="1" Margin="20, -7, 0, 50" Text="Bem-Vindo!" TextColor="White" FontSize="35"/>
 
@@ -17,8 +18,6 @@
                 <Button x:Name="btn1" Clicked="Button_Clicked_1" WidthRequest="120" FontSize="20" Background="#37343F" Text="Quimica" FontFamily="1"/>
                 <Button x:Name="btn2" Clicked="Button_Clicked_2" WidthRequest="120" FontSize="20" Background="#8257E6" Text="Promo" FontFamily="1"/>
             </HorizontalStackLayout>
-
-            <Label FontSize="55" TextColor="White">Page 3</Label>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

@@ -24,12 +24,10 @@
             </Frame>
 
 
-            <buttons:SfButton CornerRadius="10" x:Name="btn_login" Clicked="Button_Clicked" BackgroundColor="#8257E6" WidthRequest="200" Text="Login">
-                
-            </buttons:SfButton>
+            <Button CornerRadius="10" x:Name="btn_login" Clicked="Button_Clicked" BackgroundColor="#8257E6" WidthRequest="200" Text="Login"/>
 
 
-                    <Button Clicked="Button_Clicked_1" BackgroundColor="Transparent" Text="Recuperar Senha" TextColor="White" HorizontalOptions="Center"/>
+            <Button Clicked="Button_Clicked_1" BackgroundColor="Transparent" Text="Recuperar Senha" TextColor="White" HorizontalOptions="Center"/>
             <Button Clicked="Button_Clicked_2" BackgroundColor="Transparent" CharacterSpacing="1.2" Text="Quero Criar Uma Conta" TextColor="White" HorizontalOptions="Center"/>
             
             

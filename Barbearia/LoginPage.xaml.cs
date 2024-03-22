@@ -1,10 +1,13 @@
 ﻿using Barbearia.Pages;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 
 namespace Barbearia
 {
     public partial class LoginPage : ContentPage
     {
+  
         public LoginPage()
         {
             InitializeComponent();
@@ -13,18 +16,21 @@ namespace Barbearia
         {
             try
             {
+               
                 string entryemailuser = Entry_Email_User.Text.ToString();
                 string entrysenha = Entry_Senha.Text.ToString();
                 string user = "admin";
                 string senha = "12345678";
 
+
                 if ((entryemailuser == user) && (entrysenha == senha))
                 { 
                     await Navigation.PushAsync(new MainPage());
+                    await DisplayAlert("Alerta", $"campo ", "Ok");
                 }
                 else
                 {
-                    await DisplayAlert("Alerta", "Email ou Senha Errado", "Ok");
+                    await DisplayAlert("Alerta", $"campo ", "Ok");
                 }
             }
             catch
